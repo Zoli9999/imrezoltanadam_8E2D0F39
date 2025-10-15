@@ -1,0 +1,1 @@
+# Ebben a projektben a fociról, kedvenc játékosaimról és csapatomat fogom bemutatni.
