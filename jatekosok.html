@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kedvenc Játékosaim</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kedvenc Játékosaim</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="csapat.html">Kedvenc Csapatom</a></li>
+        <li><a href="jatekosok.html">Kedvenc Játékosaim</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <ul id="jatekosLista"></ul>
+
+      <input type="text" id="keresNev" placeholder="Játékos neve" />
+      <button onclick="keresNevAlapjan()">Keresés</button>
+      <p id="talalat"></p>
+
+      <button onclick="megjelenitEletkor()">Összes életkor és legidősebb</button>
+      <p id="eletkorOsszeg"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
